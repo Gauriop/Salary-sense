@@ -1,23 +1,36 @@
 # Salary Sense 💼📊
 
 **Salary Sense** is a machine learning project that predicts developer salaries based on experience, skills, and job profiles using data from the Stack Overflow Developer Survey.
+---
 
 ## 🔍 Overview
-- Cleaned and preprocessed real-world survey data
-- Engineered features and explored patterns through EDA
-- Trained and evaluated multiple regression models
-- XGBoost achieved the best results (highest R², lowest RMSE)
+- Cleaned and preprocessed real-world developer survey data
+- Performed exploratory data analysis (EDA) and feature engineering
+- Trained multiple regression models
+- Achieved best performance using **XGBoost** (highest R², lowest RMSE)
+---
 
 ## 🛠️ Tech Stack
-- Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
+- **Language:** Python 🐍
+- **Libraries:** Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
+---
 
 ## 🚀 How to Run
-1. Clone the repo  
-2. Install dependencies with `pip install -r requirements.txt`  
-3. Open and run `notebooks/Salary_Sense.ipynb`
-
+1. Clone this repo  
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Open and run the notebook:
+notebooks/Salary_Sense.ipynb
+---
 ## 📊 Results
-**XGBoost** provided the most accurate predictions, identifying key factors influencing developer salaries.
+The **XGBoost model** delivered the most accurate salary predictions, highlighting key features such as:
+
+Years of experience
+
+Developer type
+
+Country
 
 ---
 
